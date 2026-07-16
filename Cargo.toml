@@ -1,0 +1,12 @@
+[package]
+name = "sneeze"
+version = "0.1.0"
+authors = ["Help <help@rp1.com>"]
+edition = "2021"
+description = "Guest-side SDK for Sneeze WASM modules (the single-Call ABI)."
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/MetaversalCorp/SneezeRust.git"
+
+[dependencies]
+nanoserde = { version = "0.2.1", default-features = false, features = ["json"] }
